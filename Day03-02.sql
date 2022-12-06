@@ -26,8 +26,9 @@ SELECT*FROM musteriler WHERE urun_isim NOT IN('Orange','Apple','Apricot');
 yazabilme imkani verir. Yazdigimiz 2 sinirda araliga dahildir */
 
 --musteriler tablosundan id'si 20 ile 40 arasında olan verileri listeleyiniz
-SELECT*FROM musteriler WHERE urun_id>=20 and urun_id<=40 --1.yol
-SELECT*FROM musteriler WHERE urun_id BETWEEN 20 and 40 --2.yol
+SELECT*FROM musteriler WHERE urun_id>=20 and urun_id<=40   --1.yol
+SELECT*FROM musteriler WHERE urun_id BETWEEN 20 and 40     --2.yol
+
 --                           NOT BETWEEN
 /*2 mantıksal ifadenin disinda olanlar */
 SELECT*FROM musteriler WHERE urun_id NOT BETWEEN 20 and 40

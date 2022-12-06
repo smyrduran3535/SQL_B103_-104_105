@@ -27,7 +27,7 @@ Normalde data silmek için önce "Child Table" dan datayi siler daha sonra paren
 ON DELETE CASCADE iliskisi kurulduğunda direk "Parent Table"  dan datayi silebiliriz. Data "Parent"dan
 silindiğinde "Chield" dan da silinir.
 */ 
---DROP TABLE if exists talebeler; eger tablo varsa kaldırır
+--DROP TABLE if exists talebeler; eger tablo talebeler varsa kaldırır
 CREATE TABLE talebeler3
 (
 id CHAR(3) primary key, 
