@@ -265,6 +265,7 @@ FROM kelimeler
 --MUSTERİLER TABLOSUNDAN BUTUN İSİMLERİ BYK HARF YAPINIZ
 SELECT UPPER(isim) from musteriler
 SELECT UPPER(isim),UPPER(title) from personel
+select lower(isim)||' '||upper(title) from personel;
 /*
 Eğer birden fazla sütundaki verileri büyük küçük harf yapmak istersek
 select lower(title),UPPER(isim) from personel şekilde yapabiliriz
